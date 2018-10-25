@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: node01
+server:
+  port: 9091
+eureka:
+  client:
+    serviceUrl.defaultZone: http://127.0.0.1:8080/eureka/
+
+feign:
+  hystrix:
+    enabled: true

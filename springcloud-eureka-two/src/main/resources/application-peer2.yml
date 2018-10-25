@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springcloud-eureka
+
+server:
+  port: 8082
+
+eureka:
+  instance:
+    hostname: 127.0.0.1
+  client:
+    # 将serviceurl 指向 peer1
+    service-url.defaultZone: http://127.0.0.1:8081/eureka/
