@@ -18,6 +18,9 @@
         <module>hystrix-dashboard-turbine</module>
         <module>hystrix-dashboard-turbine-consumer-node01</module>
         <module>hystrix-dashboard-turbine-consumer-node02</module>
+        <!--spring cloud bus ：消息总线  spring cloud config 配置中心 -->
+        <module>spring-cloud-config-server</module>
+        <module>spring-cloud-config-consume</module>
     </modules>
     <packaging>pom</packaging>
 
