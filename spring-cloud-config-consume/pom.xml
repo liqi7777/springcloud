@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>com.ih2ome</groupId>
-	<artifactId>spring-cloud-config-consume01</artifactId>
+	<artifactId>spring-cloud-config-consume</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-cloud-config-consume</name>
 	<description>spring cloud config consume</description>
